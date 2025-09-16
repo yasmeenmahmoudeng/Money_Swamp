@@ -1,0 +1,92 @@
+{
+  "EG": {
+    "country_name": "Egypt (EGP)",
+    "methods": [
+      { "name": "Bank Transfer", "fee_percent": 1.5, "min_fee": 20, "time": "1–2 days", "notes": "Local banks only" },
+      { "name": "Western Union", "fee_percent": 2.0, "min_fee": 25, "time": "Minutes – Hours", "notes": "Cash pickup available" },
+      { "name": "Vodafone Cash", "fee_percent": 1.0, "min_fee": 10, "time": "Instant", "notes": "Requires Vodafone wallet" }
+    ]
+  },
+  "US": {
+    "country_name": "United States (USD)",
+    "methods": [
+      { "name": "ACH Bank Transfer", "fee_percent": 0.8, "min_fee": 5, "time": "1–3 days", "notes": "Domestic only" },
+      { "name": "PayPal", "fee_percent": 2.9, "min_fee": 0.3, "time": "Instant", "notes": "Requires PayPal account" },
+      { "name": "Cash App", "fee_percent": 1.5, "min_fee": 1, "time": "Instant", "notes": "US only" }
+    ]
+  },
+  "SA": {
+    "country_name": "Saudi Arabia (SAR)",
+    "methods": [
+      { "name": "Enjaz", "fee_percent": 1.2, "min_fee": 15, "time": "Same day", "notes": "Local & international" },
+      { "name": "STC Pay", "fee_percent": 1.0, "min_fee": 10, "time": "Instant", "notes": "Wallet to wallet" }
+    ]
+  },
+  "AE": {
+    "country_name": "United Arab Emirates (AED)",
+    "methods": [
+      { "name": "Al Ansari Exchange", "fee_percent": 1.5, "min_fee": 15, "time": "Minutes", "notes": "Cash pickup available" },
+      { "name": "Bank Transfer", "fee_percent": 1.0, "min_fee": 10, "time": "1 day", "notes": "Local & international" }
+    ]
+  },
+  "IN": {
+    "country_name": "India (INR)",
+    "methods": [
+      { "name": "IMPS", "fee_percent": 0.5, "min_fee": 5, "time": "Instant", "notes": "Available 24/7" },
+      { "name": "UPI", "fee_percent": 0.0, "min_fee": 0, "time": "Instant", "notes": "Free person-to-person" }
+    ]
+  },
+  "UK": {
+    "country_name": "United Kingdom (GBP)",
+    "methods": [
+      { "name": "Faster Payments", "fee_percent": 0.5, "min_fee": 2, "time": "Instant", "notes": "UK banks only" },
+      { "name": "Wise", "fee_percent": 0.8, "min_fee": 1, "time": "Same day", "notes": "Low-cost international" }
+    ]
+  },
+  "TR": {
+    "country_name": "Turkey (TRY)",
+    "methods": [
+      { "name": "Papara", "fee_percent": 0.8, "min_fee": 5, "time": "Instant", "notes": "Local e-wallet" },
+      { "name": "Ziraat Bank", "fee_percent": 1.0, "min_fee": 10, "time": "1–2 days", "notes": "Local & international" },
+      { "name": "Western Union", "fee_percent": 2.0, "min_fee": 20, "time": "Minutes", "notes": "Cash pickup available" }
+    ]
+  },
+  "DE": {
+    "country_name": "Germany (EUR)",
+    "methods": [
+      { "name": "SEPA Transfer", "fee_percent": 0.3, "min_fee": 2, "time": "1 day", "notes": "Within EU only" },
+      { "name": "Wise", "fee_percent": 0.8, "min_fee": 1, "time": "Same day", "notes": "Low international fees" }
+    ]
+  },
+  "JP": {
+    "country_name": "Japan (JPY)",
+    "methods": [
+      { "name": "Japan Post Bank", "fee_percent": 1.2, "min_fee": 300, "time": "1–2 days", "notes": "Domestic only" },
+      { "name": "PayPay", "fee_percent": 0.5, "min_fee": 50, "time": "Instant", "notes": "Popular digital wallet" }
+    ]
+  },
+  "JO": {
+    "country_name": "Jordan (JOD)",
+    "methods": [
+      { "name": "Bank Transfer", "fee_percent": 1.5, "min_fee": 18, "time": "1 business day", "notes": "All Jordanian banks" },
+      { "name": "Zain Cash", "fee_percent": 1.0, "min_fee": 8, "time": "Instant", "notes": "Requires Zain Cash wallet" },
+      { "name": "Western Union", "fee_percent": 2.0, "min_fee": 22, "time": "Hours", "notes": "Global cash pickup" }
+    ]
+  },
+  "KW": {
+    "country_name": "Kuwait (KWD)",
+    "methods": [
+      { "name": "Bank Transfer", "fee_percent": 1.2, "min_fee": 20, "time": "1 business day", "notes": "All Kuwaiti banks" },
+      { "name": "Ooredoo Money", "fee_percent": 1.0, "min_fee": 10, "time": "Instant", "notes": "Requires Ooredoo account" },
+      { "name": "Western Union", "fee_percent": 1.8, "min_fee": 20, "time": "Hours", "notes": "Global cash pickup" }
+    ]
+  },
+  "TN": {
+    "country_name": "Tunisia (TND)",
+    "methods": [
+      { "name": "Bank Transfer", "fee_percent": 1.5, "min_fee": 15, "time": "1 business day", "notes": "All Tunisian banks" },
+      { "name": "D17 Wallet", "fee_percent": 1.0, "min_fee": 8, "time": "Instant", "notes": "Requires D17 wallet" },
+      { "name": "Western Union", "fee_percent": 2.0, "min_fee": 18, "time": "Hours", "notes": "Global cash pickup" }
+    ]
+  }
+}
